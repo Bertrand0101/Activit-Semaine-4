@@ -1,0 +1,36 @@
+name: activite1
+description: "A Flutter project pour l'activité Magazine Infos"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Déclaration complète de tous les assets nécessaires
+  assets:
+    - assets/images/magazineInfo.jpg
+    - assets/images/presse.jpg
+    - assets/images/mode.jpg
+
+  # Fonts (optionnel, si vous voulez ajouter des polices custom)
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+
